@@ -1,0 +1,105 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+/* contenitore pagina */
+#container{
+  width: 90%;
+  margin: auto;
+}
+
+/* Header: Logo e Titolo */
+header{
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 180px;
+}
+#logo{
+  width: 200px;
+}
+h1{
+    display: inline-block;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    top: 40%;
+}
+/* main page */
+main{
+  margin-top: 10px;
+}
+/* search bar & submit */
+nav{
+  font-family: Verdana, sans-serif;
+}
+/* prima sezione contatore msg non letti */
+#notice{
+  margin: 20px 10px;
+  color: white;
+  font-size: 18px;
+}
+#circle{
+  color: red;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 4px;
+}
+/* lista e-mail */
+#list{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+/*  */
+.unread{
+  background-color: lightgrey;
+}
+.read{
+  background-color: white;
+}
+.sx, .dx{
+  display: inline-block;
+  margin: 2px;
+}
+.sx{
+  width: 18%;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
+.dx{
+  width: 80%;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
+.row{
+  color: black;
+  border: 1px solid black;
+}
+.star{
+  color: black;
+}
+.mittente{
+  font-weight: bold;
+}
+/* credits web page */
+footer{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+footer > span{
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+}
